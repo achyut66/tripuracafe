@@ -1,0 +1,833 @@
+export const RESTAURANT = {
+  name: "Tripura Cafe & Restaurant",
+  tagline: "Delicious Food & Fresh Coffee",
+  hours: {
+    weekdays: { open: "10:00 AM", close: "10:00 PM" },
+    weekends: { open: "9:00 AM", close: "11:00 PM" },
+  },
+  social: {
+    facebook: "https://facebook.com",
+    instagram: "https://instagram.com",
+    youtube: "https://youtube.com",
+  },
+};
+
+export const mainCategories = [
+  {
+    id: "signature",
+    name: "SPECIAL ITEMS",
+    description: "Tripura's Special Dishes",
+    items: [
+      {
+        name: "Cheese Corn-Dog",
+        desc: "Crispy battered sausage filled with melted cheese",
+        price: "Rs. 150 /-",
+        image: "../../special/1.jpg",
+      },
+      {
+        name: "Keema Noodles Buff/Chicken",
+        desc: "Spicy minced meat tossed with stir-fried noodles",
+        price: "Rs. 250/290 /-",
+        image: "../../special/2.jpg",
+      },
+      {
+        name: "Tawa (Grilled) Chi/Mutton/Pork",
+        desc: "(Grilled chicken with souted pokchai)",
+        price: "Rs. 450/750/550 /-",
+        image: "../../special/3.jpeg",
+      },
+      {
+        name: "Tawa Half KG Chi/Mutton/Pork",
+        desc: "(Grilled chicken with souted pokchai)",
+        price: "Rs. 200 /-",
+        image: "../../special/4.jpeg",
+      },
+      {
+        name: "Choila/Sekuwa (Chik/Pork/Mutton) 1/2",
+        desc: "Smoky charcoal-grilled meat with spicy Nepali seasoning",
+        price: "Rs. 750/800/1350 /-",
+        image: "../../special/5.jpg",
+      },
+      {
+        name: "Choila/Sekuwa (Chik/Pork/Mutton) - Per person",
+        desc: "Traditional smoky grilled meat platter per person serving",
+        price: "Rs. 450/650/750 /-",
+        image: "../../special/6.jpg",
+      },
+      {
+        name: "Grilled Prawns (12pcs)",
+        desc: "Juicy prawns grilled with herbs and light seasoning",
+        price: "Rs. 1250 /-",
+        image: "../../special/7.jpg",
+      },
+      {
+        name: "Prawns Tempura (6pcs)",
+        desc: "Light crispy battered prawns with delicate crunch",
+        price: "Rs. 650 /-",
+        image: "../../special/8.jpg",
+      },
+    ],
+  },
+  {
+    id: "fast-food",
+    name: "FAST FOOD",
+    description: "Steamed & fried dumplings/noodles",
+    items: [
+      {
+        name: "Chicken Momo (Steam)",
+        subcat: "Momo:",
+        desc: "Juicy chicken dumplings steamed in soft wrapper",
+        price: "Rs. 225 /-",
+        image: "../../fast/1.jpg",
+      },
+      {
+        name: "Chicken Momo (Chilli / Fried)",
+        subcat: "Momo:",
+        desc: "Crispy fried momo tossed in spicy chilli sauce",
+        price: "Rs. 240 /-",
+        image: "../../fast/2.jpg",
+      },
+      {
+        name: "Chicken Momo (Jhol)",
+        subcat: "Momo:",
+        desc: "Steamed momo served in warm spiced tomato broth",
+        price: "Rs. 240 /-",
+        image: "../../fast/3.jpeg",
+      },
+      {
+        name: "Buff Momo (Steam)",
+        subcat: "Momo:",
+        desc: "Tender buffalo meat dumplings steamed to perfection",
+        price: "Rs. 225 /-",
+        image: "../../fast/4.jpg",
+      },
+      {
+        name: "Buff Momo (Chilli / Fried)",
+        subcat: "Momo:",
+        desc: "Crunchy buffalo momo with fiery chilli glaze",
+        price: "Rs. 240 /-",
+        image: "../../fast/5.jpeg",
+      },
+      {
+        name: "Buff Momo (Jhol)",
+        subcat: "Momo:",
+        desc: "Soft buffalo momo swimming in savory jhol soup",
+        price: "Rs. 240 /-",
+        image: "../../fast/6.jpg",
+      },
+      {
+        name: "Paneer/Veg Momo (Steam)",
+        subcat: "Momo:",
+        desc: "Fresh vegetable and paneer dumplings lightly steamed",
+        price: "Rs. 175 /-",
+        image: "../../fast/7.jpg",
+      },
+      {
+        name: "Paneer/Veg Momo (Chilli / Fried)",
+        subcat: "Momo:",
+        desc: "Crisp veg momo tossed in tangy chilli sauce",
+        price: "Rs. 200 /-",
+        image: "../../fast/8.jpg",
+      },
+      {
+        name: "Paneer/Veg Momo (Jhol)",
+        subcat: "Momo:",
+        desc: "Veg momo served in rich aromatic jhol broth",
+        price: "Rs. 200 /-",
+        image: "../../fast/9.jpeg",
+      },
+
+      {
+        name: "Veg",
+        subcat: "Chowmein:",
+        desc: "Stir-fried noodles with crisp vegetables and mild spice",
+        price: "Rs. 140 /-",
+        image: "../../fast/10.jpg",
+      },
+      {
+        name: "Buff/Egg",
+        subcat: "Chowmein:",
+        desc: "Wok-tossed noodles with buffalo meat or egg topping",
+        price: "Rs. 170 /-",
+        image: "../../fast/11.jpg",
+      },
+      {
+        name: "Chicken",
+        subcat: "Chowmein:",
+        desc: "Savory noodles stir-fried with tender chicken pieces",
+        price: "Rs. 170 /-",
+        image: "../../fast/12.jpeg",
+      },
+      {
+        name: "Pork",
+        subcat: "Chowmein:",
+        desc: "Smoky wok noodles loaded with juicy pork strips",
+        price: "Rs. 200 /-",
+        image: "../../fast/13.jpeg",
+      },
+
+      {
+        name: "Veg",
+        subcat: "Fried Rice:",
+        desc: "Fragrant rice tossed with fresh vegetables and spices",
+        price: "Rs. 140 /-",
+        image: "../../fast/14.jpg",
+      },
+      {
+        name: "Buff/Egg",
+        subcat: "Fried Rice:",
+        desc: "Golden fried rice with buffalo meat or egg",
+        price: "Rs. 170 /-",
+        image: "../../fast/15.jpeg",
+      },
+      {
+        name: "Chicken",
+        subcat: "Fried Rice:",
+        desc: "Aromatic rice fried with juicy chicken and vegetables",
+        price: "Rs. 170 /-",
+        image: "../../fast/16.jpeg",
+      },
+      {
+        name: "Pork",
+        subcat: "Fried Rice:",
+        desc: "Savory fried rice with tender pork and spices",
+        price: "Rs. 200 /-",
+        image: "../../fast/17.jpeg",
+      },
+    ],
+  },
+
+  {
+    id: "salad",
+    name: "SALAD",
+    description: "Vegetables & fruits",
+    items: [
+      {
+        name: "Nepali Style Green Salad",
+        desc: "Fresh greens tossed with lemon and local spices",
+        price: "Rs. 195 /-",
+        image: "../../salad/1.jpg",
+      },
+      {
+        name: "Sweet Corn Salad",
+        desc: "Sweet corn mixed with crunchy vegetables and dressing",
+        price: "Rs. 195 /-",
+        image: "../../salad/2.jpg",
+      },
+      {
+        name: "Mixed Boiled Veg",
+        desc: "Light boiled seasonal vegetables with simple seasoning",
+        price: "Rs. 295 /-",
+        image: "../../salad/3.jpg",
+      },
+      {
+        name: "Mixed Fruit Salad",
+        desc: "Assorted fresh fruits with sweet citrus dressing",
+        price: "Rs. 350 /-",
+        image: "../../salad/4.jpg",
+      },
+    ],
+  },
+  {
+    id: "soup",
+    name: "SOUP",
+    description: "Vegetables Soups",
+    items: [
+      {
+        name: "Cream Of Mushroom",
+        desc: "Rich creamy soup with earthy mushroom flavor",
+        price: "Rs. 210 /-",
+        image: "../../soup/1.jpeg",
+      },
+      {
+        name: "Clear Soup Veg/Chilli",
+        desc: "Light clear broth with vegetables or spicy chilli",
+        price: "Rs. 210/250 /-",
+        image: "../../soup/2.jpg",
+      },
+      {
+        name: "Chicken Hot & Sour Soup",
+        desc: "Tangy spicy broth with tender chicken strips",
+        price: "Rs. 245 /-",
+        image: "../../soup/3.jpg",
+      },
+    ],
+  },
+  {
+    id: "beverages",
+    name: "BEVERAGES",
+    description: "Hot & cold drinks",
+    items: [
+      {
+        name: "Cappuccino",
+        subcat: "Milk Coffee Varities",
+        desc: "Espresso with steamed milk and thick foam crown",
+        price: "Rs. 185 /-",
+        image: "../../beverage/5.jpeg",
+      },
+      {
+        name: "Cafe Latte",
+        subcat: "Milk Coffee Varities",
+        desc: "Smooth espresso blended with creamy steamed milk",
+        price: "Rs. 185 /-",
+        image: "../../beverage/6.jpeg",
+      },
+      {
+        name: "Caramel Macchiato",
+        subcat: "Milk Coffee Varities",
+        desc: "Layered espresso with sweet caramel and foamed milk",
+        price: "Rs. 185 /-",
+        image: "../../beverage/7.jpeg",
+      },
+      {
+        name: "Honey Latte",
+        subcat: "Milk Coffee Varities",
+        desc: "Warm latte sweetened naturally with golden honey",
+        price: "Rs. 185 /-",
+        image: "../../beverage/8.jpeg",
+      },
+      {
+        name: "Caramel Latte",
+        subcat: "Milk Coffee Varities",
+        desc: "Creamy latte infused with rich buttery caramel",
+        price: "Rs. 185 /-",
+        image: "../../beverage/9.jpeg",
+      },
+      {
+        name: "Cafe Mocha",
+        subcat: "Milk Coffee Varities",
+        desc: "Chocolate and espresso blended with steamed milk",
+        price: "Rs. 185 /-",
+        image: "../../beverage/10.jpeg",
+      },
+      {
+        name: "Espresso Single/Double",
+        subcat: "Black Coffee Varities",
+        desc: "Bold concentrated shot of pure dark espresso",
+        price: "Rs. 90/130 /-",
+        image: "../../beverage/1.jpeg",
+      },
+      {
+        name: "Espresso Con Panaa",
+        subcat: "Black Coffee Varities",
+        desc: "Rich espresso topped with velvety whipped cream",
+        price: "Rs. 160 /-",
+        image: "../../beverage/2.jpeg",
+      },
+      {
+        name: "Americano Single/Double",
+        subcat: "Black Coffee Varities",
+        desc: "Smooth espresso diluted with hot water for balance",
+        price: "Rs. 160/190 /-",
+        image: "../../beverage/3.jpeg",
+      },
+      {
+        name: "Expresso Macchiato",
+        subcat: "Black Coffee Varities",
+        desc: "Espresso marked with a dash of foamed milk",
+        price: "Rs. 150 /-",
+        image: "../../beverage/4.jpeg",
+      },
+
+      {
+        name: "Black Tea",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Classic strong tea brewed for comforting warmth",
+        price: "Rs. 25 /-",
+        image: "../../beverage/11.jpeg",
+      },
+      {
+        name: "Milk Tea",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Creamy spiced tea with smooth comforting flavor",
+        price: "Rs. 40 /-",
+        image: "../../beverage/12.jpeg",
+      },
+      {
+        name: "Hot Lemon",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Warm soothing lemon drink with refreshing citrus note",
+        price: "Rs. 40 /-",
+        image: "../../beverage/13.jpeg",
+      },
+      {
+        name: "Steam Mil",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Silky warm steamed milk, simple and comforting",
+        price: "Rs. 50 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        name: "Hot Chocolate",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Rich creamy chocolate drink topped with warmth",
+        price: "Rs. 155 /-",
+        image: "../../beverage/14.jpeg",
+      },
+      {
+        name: "Ginger Hot Lemon With Honey",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Soothing ginger lemon tea sweetened with honey",
+        price: "Rs. 155 /-",
+        image: "../../beverage/15.jpeg",
+      },
+      {
+        name: "Nepali Style Milk Coffe",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Traditional Nepali milk coffee with bold earthy taste",
+        price: "Rs. 130 /-",
+        image: "../../beverage/16.jpg",
+      },
+      {
+        name: "Ice Americano",
+        subcat: "Ice Blended varieties",
+        desc: "Chilled bold espresso served over refreshing ice",
+        price: "Rs. 160 /-",
+        image: "../../beverage/17.jpeg",
+      },
+      {
+        name: "Cold Coffee Latte",
+        subcat: "Ice Blended varieties",
+        desc: "Iced creamy coffee blended for cool refreshment",
+        price: "Rs. 185 /-",
+        image: "../../beverage/18.jpeg",
+      },
+      {
+        name: "Iced Latte/Cappuccino",
+        subcat: "Ice Blended varieties",
+        desc: "Chilled espresso with milk served over ice",
+        price: "Rs. 185 /-",
+        image: "../../beverage/19.jpeg",
+      },
+      {
+        name: "Coffe Mocha/Frappe",
+        subcat: "Ice Blended varieties",
+        desc: "Blended icy mocha with rich chocolate coffee flavor",
+        price: "Rs. 250 /-",
+        image: "../../beverage/20.jpeg",
+      },
+      {
+        name: "Strawberry / Oreo Frappe",
+        subcat: "Ice Blended varieties",
+        desc: "Thick blended frappe with fruity or cookie crunch",
+        price: "Rs. 250 /-",
+        image: "../../beverage/21.jpeg",
+      },
+      {
+        name: "Vanilla / Chocolate Frappe",
+        subcat: "Ice Blended varieties",
+        desc: "Smooth icy frappe in vanilla or chocolate flavor",
+        price: "Rs. 250 /-",
+        image: "../../beverage/22.jpeg",
+      },
+      {
+        name: "Cucumber Coller",
+        subcat: "Shake Me Up",
+        desc: "Cool refreshing cucumber drink with light minty taste",
+        price: "Rs. 160 /-",
+        image: "../../beverage/23.jpeg",
+      },
+      {
+        name: "Plain/sweet Lassi",
+        subcat: "Shake Me Up",
+        desc: "Traditional yogurt drink, plain or lightly sweetened",
+        price: "Rs. 170 /-",
+        image: "../../beverage/24.jpeg",
+      },
+      {
+        name: "Fresh Mint Lemonade",
+        subcat: "Shake Me Up",
+        desc: "Zesty lemonade infused with fresh garden mint",
+        price: "Rs. 225 /-",
+        image: "../../beverage/25.jpeg",
+      },
+      {
+        name: "Vanilla/Chocolate Milk Shake",
+        subcat: "Shake Me Up",
+        desc: "Thick creamy shake in vanilla or chocolate flavor",
+        price: "Rs. 225 /-",
+        image: "../../beverage/26.jpeg",
+      },
+      {
+        name: "Vanilla/Banana Lassi",
+        subcat: "Shake Me Up",
+        desc: "Creamy yogurt blend with vanilla or ripe banana",
+        price: "Rs. 225 /-",
+        image: "../../beverage/27.jpeg",
+      },
+      {
+        name: "Seasonal Fresh Juice",
+        subcat: "Shake Me Up",
+        desc: "Freshly squeezed seasonal fruit juice served chilled",
+        price: "Rs. 200 /-",
+        image: "../../beverage/28.jpeg",
+      },
+      {
+        name: "Chocolate Brownie",
+        subcat: "Dessert",
+        desc: "Fudgy rich chocolate brownie with deep cocoa taste",
+        price: "Rs. 145 /-",
+        image: "../../beverage/29.jpeg",
+      },
+      {
+        name: "Choco. Brownie W/Ice Cream",
+        subcat: "Dessert",
+        desc: "Warm brownie paired with cold creamy ice cream",
+        price: "Rs. 195 /-",
+        image: "../../beverage/30.jpeg",
+      },
+      {
+        name: "Ice Creams (1 scoops)",
+        subcat: "Dessert",
+        desc: "Classic ice cream scoop, creamy and sweet",
+        price: "Rs. 160 /-",
+        image: "../../beverage/31.jpeg",
+      },
+    ],
+  },
+  {
+    id: "snacks",
+    name: "SNACKS",
+    description: "First Meal Of Tripura",
+    items: [
+      {
+        subcat: "CRISPY FRIED CHICKEN",
+        name: "CFC Boneless/W/Bone (1pcs)",
+        desc: "Golden crispy fried chicken, juicy inside crunchy outside",
+        price: "Rs. 245 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "CRISPY FRIED CHICKEN",
+        name: "CFC Boneless/W/Bone (2pcs)",
+        desc: "Two pieces of signature crispy seasoned fried chicken",
+        price: "Rs. 400 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "CRISPY FRIED CHICKEN",
+        name: "CFC Boneless/W/Bone (4pcs)",
+        desc: "Shareable crispy fried chicken with bold crunchy coating",
+        price: "Rs. 750 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "CRISPY FRIED CHICKEN",
+        name: "CFC Boneless/W/Bone (8pcs)",
+        desc: "Party size crispy fried chicken with crunchy coating",
+        price: "Rs. 1400 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "ITALIAN CUISINE PIZZA",
+        name: "Margatitta (Cheese)",
+        desc: "Classic Italian pizza with fresh mozzarella and herbs",
+        price: "Rs. 545 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "ITALIAN CUISINE PIZZA",
+        name: "Funghi (Mushroom) Bianco ",
+        desc: "White sauce pizza topped with savory earthy mushrooms",
+        price: "Rs. 595 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "ITALIAN CUISINE PIZZA",
+        name: "De pollo (Chi.) ",
+        desc: "Italian pizza loaded with seasoned tender chicken topping",
+        price: "Rs. 595 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "ITALIAN CUISINE PIZZA",
+        name: "BBG Style Chicken ",
+        desc: "Smoky barbecue chicken pizza with tangy sweet glaze",
+        price: "Rs. 795 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "INDIAN CUISINE",
+        name: "Veg Biryani ",
+        desc: "Fragrant basmati rice spiced with mixed vegetables",
+        price: "Rs. 350 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "INDIAN CUISINE",
+        name: "Paneer Biryani ",
+        desc: "Aromatic rice layered with soft spiced paneer cubes",
+        price: "Rs. 450 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "INDIAN CUISINE",
+        name: "Chicken Biryani ",
+        desc: "Slow-cooked basmati rice with tender spiced chicken",
+        price: "Rs. 450 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "INDIAN CUISINE",
+        name: "Mutton Biryani ",
+        desc: "Rich biryani with succulent mutton and aromatic spices",
+        price: "Rs. 550 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "INDIAN CUISINE",
+        name: "Curry With Rice & Roti (4pcs) (Veg/Chi./Paneer/Mutton) ",
+        desc: "Complete meal with curry, rice and soft roti",
+        price: "Rs. 275/295/295/450 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "Papad Dry/Fry/Masala ",
+        desc: "Crisp papad served dry, fried or spiced masala style",
+        price: "Rs. 50/50/195 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "Wai-Wai/Peanut Sadheko ",
+        desc: "Spicy Nepali wai-wai noodles tossed with crunchy peanuts",
+        price: "Rs. 225 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "Pakora Veg/Paneer ",
+        desc: "Crispy battered vegetable or paneer fritters, lightly spiced",
+        price: "Rs. 175/345 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "Mustang Alu ",
+        desc: "Tangy spicy Mustang-style potato with bold local flavors",
+        price: "Rs. 245 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "French Fries ",
+        desc: "Golden crispy potato fries with light salty seasoning",
+        price: "Rs. 245 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "Mushroom Sadheko/Choila ",
+        desc: "Spicy tossed mushrooms with Nepali herbs and chilli",
+        price: "Rs. 325 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "VEG SNACKS",
+        name: "Chilli Mushroom/Paneer ",
+        desc: "Stir-fried mushroom or paneer in hot chilli sauce",
+        price: "Rs. 335 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Sausace Chi./Buff (1 Piece) ",
+        desc: "Grilled chicken or buffalo sausage with savory spice",
+        price: "Rs. 75/45 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Chilli Buff",
+        desc: "Tender buffalo strips stir-fried in spicy chilli sauce",
+        price: "Rs. 295 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Spicy Hot Wings",
+        desc: "Crispy chicken wings coated in fiery hot sauce",
+        price: "Rs. 345 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Mutton Bhutton",
+        desc: "Rich spicy mutton snack with bold smoky flavor",
+        price: "Rs. 345 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Chilli Pork",
+        desc: "Juicy pork stir-fried with peppers and chilli glaze",
+        price: "Rs. 345 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Chicken Chilli WB/BL",
+        desc: "Chicken chilli with or without bone, spicy tangy",
+        price: "Rs. 325/395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Buff Sukuti Sadheko",
+        desc: "Smoky dried buffalo meat tossed with onion and spices",
+        price: "Rs. 395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Chicken Sadheko",
+        desc: "Spicy tossed chicken with fresh herbs and chilli",
+        price: "Rs. 395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Buff Choila",
+        desc: "Char-grilled buffalo marinated in smoky Nepali spices",
+        price: "Rs. 395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Chicken Choila",
+        desc: "Smoky spiced grilled chicken with tangy Nepali marinade",
+        price: "Rs. 395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Buff Sekuwa",
+        desc: "Charcoal-grilled buffalo skewers with earthy smoky seasoning",
+        price: "Rs. 395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+      {
+        subcat: "NON-VEG SNACKS",
+        name: "Chicken Choila",
+        desc: "Smoky spiced grilled chicken with tangy Nepali marinade",
+        price: "Rs. 395 /-",
+        image:
+          "https://images.unsplash.com/photo-1509042239860-f550ce710b93?w=400",
+      },
+    ],
+  },
+  // {
+  //   id: "combos",
+  //   name: "COMBOS & MORE",
+  //   description: "Hearty plates & sides",
+  //   items: [
+  //     {
+  //       name: "Burger Combo",
+  //       price: "Rs. 350",
+  //       image:
+  //         "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+  //     },
+  //     {
+  //       name: "Margherita Pizza",
+  //       price: "Rs. 550",
+  //       image:
+  //         "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+  //     },
+  //     {
+  //       name: "Chicken Pizza",
+  //       price: "Rs. 650",
+  //       image:
+  //         "https://images.unsplash.com/photo-1513104890138-7c749659a591?w=400",
+  //     },
+  //     {
+  //       name: "Fried Rice",
+  //       price: "Rs. 200",
+  //       image:
+  //         "https://images.unsplash.com/photo-1603133872871-423d05e2690b?w=400",
+  //     },
+  //     {
+  //       name: "Chicken Sekuwa",
+  //       price: "Rs. 320",
+  //       image:
+  //         "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400",
+  //     },
+  //     {
+  //       name: "French Fries",
+  //       price: "Rs. 150",
+  //       image:
+  //         "https://images.unsplash.com/photo-1573080496219-bb080ddcaf8d?w=400",
+  //     },
+  //     {
+  //       name: "Chicken Wings",
+  //       price: "Rs. 380",
+  //       image:
+  //         "https://images.unsplash.com/photo-1552566626-52f8b828add9?w=400",
+  //     },
+  //     {
+  //       name: "Club Sandwich",
+  //       price: "Rs. 280",
+  //       image:
+  //         "https://images.unsplash.com/photo-1568901346375-23c9450c58cd?w=400",
+  //     },
+  //     {
+  //       name: "Soup of the Day",
+  //       price: "Rs. 160",
+  //       image:
+  //         "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+  //     },
+  //     {
+  //       name: "Dal Bhat Set",
+  //       price: "Rs. 300",
+  //       image:
+  //         "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+  //     },
+  //     {
+  //       name: "Thukpa",
+  //       price: "Rs. 220",
+  //       image:
+  //         "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+  //     },
+  //     {
+  //       name: "Wonton Soup",
+  //       price: "Rs. 190",
+  //       image:
+  //         "https://images.unsplash.com/photo-1547592166-23ac45744acd?w=400",
+  //     },
+  //   ],
+  // },
+];
+
+export const ITEMS_PER_PAGE = 30;
