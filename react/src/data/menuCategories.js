@@ -640,6 +640,13 @@ export const mainCategories = [
         image: "../../snacks/32.jpeg",
       },
       {
+        subcat: "NON-VEG SNACKS",
+        name: "Tandoori Chicken (Full/Half)",
+        desc: "Smoky spiced grilled chicken with tangy Nepali marinade",
+        price: "Rs. 800 / 450 /-",
+        image: "../../snacks/32.jpeg",
+      },
+      {
         subcat: "CRISPY FRIED CHICKEN",
         name: "CFC Boneless/W/Bone (1pcs)",
         desc: "Golden crispy fried chicken, juicy inside crunchy outside",
@@ -1024,4 +1031,4 @@ export const mainCategories = [
   // },
 ];
 
-export const ITEMS_PER_PAGE = 30;
+export const ITEMS_PER_PAGE = 50;
