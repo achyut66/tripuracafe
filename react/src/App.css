@@ -13,7 +13,7 @@
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.72);
+  background: rgba(0, 0, 0, 0.82);
   min-height: 100vh;
   padding: 28px clamp(16px, 4vw, 48px) 40px;
   color: white;

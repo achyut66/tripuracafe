@@ -14,7 +14,7 @@ export const RESTAURANT = {
 
 export const mainCategories = [
   {
-    id: "signature",
+    id: "special-items",
     name: "SPECIAL ITEMS",
     description: "Tripura's Special Dishes",
     items: [
@@ -65,6 +65,90 @@ export const mainCategories = [
         desc: "Light crispy battered prawns with delicate crunch",
         price: "Rs. 650 /-",
         image: "../../special/8.jpg",
+      },
+    ],
+  },
+  {
+    id: "main-course",
+    name: "MAIN COURSE",
+    description: "Main Dishes",
+    items: [
+      {
+        subcat: "Naan Roti",
+        name: "Plain / Butter(Piece)",
+        desc: "Soft tandoor naan, plain or with butter",
+        price: "Rs. 65 / 80 /-",
+        image: "../../main/1.jpeg",
+      },
+      {
+        subcat: "Naan Roti",
+        name: "Plain Roti (Piece)",
+        desc: "Fresh unleavened wheat flatbread per piece",
+        price: "Rs. 30 /-",
+        image: "../../main/2.jpeg",
+      },
+      {
+        subcat: "Naan Roti",
+        name: "Mix Veg Curry",
+        desc: "Seasonal vegetables in mildly spiced curry",
+        price: "Rs. 150 /-",
+        image: "../../main/3.jpeg",
+      },
+      {
+        subcat: "Naan Roti",
+        name: "Chicken / Mutton / Masala",
+        desc: "Choice of chicken, mutton or masala curry",
+        price: "Rs. 200 / 350 / 245 /-",
+        image: "../../main/4.jpeg",
+      },
+      {
+        subcat: "Naan Roti",
+        name: "Daal Fry (Normal) / Tadka",
+        desc: "Lentil daal fry or tempered tadka style",
+        price: "Rs. 100 / 150 /-",
+        image: "../../main/5.jpeg",
+      },
+      {
+        subcat: "Naan Roti",
+        name: "Rasma / Mutter Paneer",
+        desc: "Creamy paneer in rasma or mutter curry",
+        price: "Rs. 250 / 250 /-",
+        image: "../../main/6.jpeg",
+      },
+      {
+        subcat: "Khaja Set",
+        name: "Chicken Khaja Set",
+        desc: "Nepali khaja set with chicken and sides",
+        price: "Rs. 395 /-",
+        image: "../../main/7.jpeg",
+      },
+      {
+        subcat: "Khaja Set",
+        name: "Veg Khaja Set",
+        desc: "Vegetarian khaja set with dal and rice",
+        price: "Rs. 295 /-",
+        image: "../../main/12.jpeg",
+      },
+      {
+        subcat: "Thakali Khana",
+        name: "Chicken",
+        desc: "Thakali dal bhat set with chicken curry",
+        price: "Rs. 345 /-",
+        image: "../../main/9.jpeg",
+      },
+      {
+        subcat: "Thakali Khana",
+        name: "Veg",
+        desc: "Classic vegetarian Thakali dal bhat platter",
+        price: "Rs. 245 /-",
+        image: "../../main/13.jpeg",
+      },
+      {
+        subcat: "Thakali Khana",
+        name: "Mutton",
+        desc: "Thakali set with rich mutton curry",
+        price: "Rs. 445 /-",
+        image: "../../main/11.jpeg",
       },
     ],
   },
@@ -644,7 +728,7 @@ export const mainCategories = [
         name: "Tandoori Chicken (Full/Half)",
         desc: "Smoky spiced grilled chicken with tangy Nepali marinade",
         price: "Rs. 800 / 450 /-",
-        image: "../../snacks/32.jpeg",
+        image: "../../snacks/33.jpg",
       },
       {
         subcat: "CRISPY FRIED CHICKEN",
