@@ -10,10 +10,11 @@
   background-size: cover;
   background-position: center;
   background-attachment: fixed;
+  background-repeat: no-repeat;
 }
 
 .overlay {
-  background: rgba(0, 0, 0, 0.82);
+  background: rgba(10, 8, 6, 0.58);
   min-height: 100vh;
   padding: 28px clamp(16px, 4vw, 48px) 40px;
   color: white;
@@ -113,8 +114,15 @@
 
 .menu-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 12px;
+}
+
+@media (min-width: 600px) {
+  .menu-grid {
+    grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+    gap: 24px;
+  }
 }
 
 .card {
@@ -150,29 +158,62 @@
 
 .card img {
   width: 100%;
-  height: 200px;
+  height: 120px;
   object-fit: cover;
 }
 
+@media (min-width: 600px) {
+  .card img {
+    height: 200px;
+  }
+}
+
 .card-body {
-  padding: 18px 20px;
+  padding: 10px 12px;
+}
+
+@media (min-width: 600px) {
+  .card-body {
+    padding: 18px 20px;
+  }
 }
 
 .card-body h3 {
   margin-bottom: 8px;
-  font-size: 1.05rem;
+  font-size: 0.82rem;
   font-weight: 600;
+  line-height: 1.25;
+}
+
+@media (min-width: 600px) {
+  .card-body h3 {
+    font-size: 1.05rem;
+  }
 }
 
 .card-price {
   color: #8b6914;
   font-weight: 700;
-  font-size: 1rem;
+  font-size: 0.85rem;
 }
+
+@media (min-width: 600px) {
+  .card-price {
+    font-size: 1rem;
+  }
+}
+
 .card-desc {
   color: rgb(5, 81, 111);
   font-weight: 200;
-  font-size: 1rem;
+  font-size: 0.75rem;
+  line-height: 1.3;
+}
+
+@media (min-width: 600px) {
+  .card-desc {
+    font-size: 1rem;
+  }
 }
 
 .pagination {
