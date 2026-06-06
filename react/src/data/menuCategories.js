@@ -2,8 +2,8 @@ export const RESTAURANT = {
   name: "Tripura Cafe & Restaurant",
   tagline: "Delicious Food & Fresh Coffee",
   hours: {
-    weekdays: { open: "10:00 AM", close: "10:00 PM" },
-    weekends: { open: "9:00 AM", close: "11:00 PM" },
+    weekdays: { open: "07:00 AM", close: "09:00 PM" },
+    weekends: { open: "07:00 AM", close: "10:00 PM" },
   },
   social: {
     facebook: "https://facebook.com",
