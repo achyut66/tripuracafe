@@ -74,6 +74,27 @@ export const mainCategories = [
     description: "Main Dishes",
     items: [
       {
+        subcat: "Break fast",
+        name: "Chana + 2 Egg",
+        desc: "--",
+        price: "Rs. 150/-",
+        image: "../../main/1.jpeg",
+      },
+      {
+        subcat: "Break Fast",
+        name: "Omlete Toast Bread With Butter/Jam",
+        desc: "--",
+        price: "Rs. 250 /-",
+        image: "../../main/1.jpeg",
+      },
+      {
+        subcat: "Break Fast",
+        name: "Toast With Butter Jam",
+        desc: "--",
+        price: "Rs. 150 /-",
+        image: "../../main/1.jpeg",
+      },
+      {
         subcat: "Naan Roti",
         name: "Plain / Butter(Piece)",
         desc: "Soft tandoor naan, plain or with butter",
