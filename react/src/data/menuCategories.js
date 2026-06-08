@@ -74,7 +74,7 @@ export const mainCategories = [
     description: "Main Dishes",
     items: [
       {
-        subcat: "Break fast",
+        subcat: "Break Fast",
         name: "Chana + 2 Egg",
         desc: "--",
         price: "Rs. 150/-",
