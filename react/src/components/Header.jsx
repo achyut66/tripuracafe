@@ -46,7 +46,7 @@ function Header() {
       <div className="header-brand">
         <div className="chef-block">
           <img src={logo} alt="Head chef" className="chef-photo" />
-          <div className="chef-badge">Chef&apos;s Special</div>
+          {/* <div className="chef-badge">Chef&apos;s Special</div> */}
         </div>
         <div className="brand-text">
           <h1 className="restaurant-name">{name}</h1>
