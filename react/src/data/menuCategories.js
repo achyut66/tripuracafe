@@ -183,6 +183,20 @@ export const mainCategories = [
         price: "Rs. 445 /-",
         image: "../../main/11.jpeg",
       },
+      {
+        subcat: "Chinese Dish",
+        name: "American Chopsuey",
+        desc: "",
+        price: "Rs. 400 /-",
+        image: "../../main/ac.jpeg",
+      },
+      {
+        subcat: "Chinese Dish",
+        name: "Chinese Chopsuey",
+        desc: "",
+        price: "Rs. 380 /-",
+        image: "../../main/cc.jpeg",
+      },
     ],
   },
   {
