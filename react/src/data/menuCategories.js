@@ -31,6 +31,18 @@ export const mainCategories = [
         image: "../../special/2.jpg",
       },
       {
+        name: "Timur Chicken",
+        desc: "",
+        price: "Rs. 380 /-",
+        image: "../../special/t.jpg",
+      },
+      {
+        name: "Dragon Chicken",
+        desc: "",
+        price: "Rs. 350 /-",
+        image: "../../special/d.jpg",
+      },
+      {
         name: "Tawa (Grilled) Chi/Mutton/Pork",
         desc: "(Grilled chicken with souted pokchai)",
         price: "Rs. 450/750/550 /-",
