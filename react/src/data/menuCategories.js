@@ -50,12 +50,12 @@ export const mainCategories = [
       },
       {
         name: "Tawa Half KG Chi/Mutton/Pork",
-        desc: "(Grilled chicken with souted pokchai)",
-        price: "Rs. 200 /-",
+        desc: "(Grilled chicken withf souted pokchai)",
+        price: "Rs. 800/1200/800 /-",
         image: "../../special/4.jpeg",
       },
       {
-        name: "Choila/Sekuwa (Chik/Pork/Mutton) 1/2",
+        name: "Choila/Sekuwa (Chik/Pork/Mutton) 1/2 KG",
         desc: "Smoky charcoal-grilled meat with spicy Nepali seasoning",
         price: "Rs. 750/800/1350 /-",
         image: "../../special/5.jpg",
@@ -476,6 +476,13 @@ export const mainCategories = [
         image: "../../beverage/11.jpeg",
       },
       {
+        name: "Lemon Tea",
+        subcat: "Coffee Alternative (Hot Beverage)",
+        desc: "Classic strong tea brewed for comforting warmth",
+        price: "Rs. 40 /-",
+        image: "../../beverage/l.jpeg",
+      },
+      {
         name: "Milk Tea",
         subcat: "Coffee Alternative (Hot Beverage)",
         desc: "Creamy spiced tea with smooth comforting flavor",
@@ -523,6 +530,20 @@ export const mainCategories = [
         desc: "Chilled bold espresso served over refreshing ice",
         price: "Rs. 160 /-",
         image: "../../beverage/17.jpeg",
+      },
+      {
+        name: "Peach Ice Tea",
+        subcat: "Ice Blended varieties",
+        desc: "Chilled bold espresso served over refreshing ice",
+        price: "Rs. 220 /-",
+        image: "../../beverage/ice1.jpg",
+      },
+      {
+        name: "Lemon Ice Tea",
+        subcat: "Ice Blended varieties",
+        desc: "Chilled bold espresso served over refreshing ice",
+        price: "Rs. 220 /-",
+        image: "../../beverage/lice.jpeg",
       },
       {
         name: "Cold Coffee Latte",
