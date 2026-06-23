@@ -494,7 +494,7 @@ export const mainCategories = [
         subcat: "Coffee Alternative (Hot Beverage)",
         desc: "Classic strong tea brewed for comforting warmth",
         price: "Rs. 40 /-",
-        image: "../../beverage/l.jpeg",
+        image: "../../beverage/l.jpg",
       },
       {
         name: "Milk Tea",
