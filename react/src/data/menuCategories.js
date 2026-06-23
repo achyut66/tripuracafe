@@ -370,7 +370,7 @@ export const mainCategories = [
         name: "Mixed Boiled Veg",
         desc: "Light boiled seasonal vegetables with simple seasoning",
         price: "Rs. 295 /-",
-        image: "../../salad/3.jpg",
+        image: "../../salad/bv.jpg",
       },
       {
         name: "Mixed Fruit Salad",
