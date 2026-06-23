@@ -493,7 +493,7 @@ export const mainCategories = [
         name: "Hot Lemon",
         subcat: "Coffee Alternative (Hot Beverage)",
         desc: "Warm soothing lemon drink with refreshing citrus note",
-        price: "Rs. 40 /-",
+        price: "Rs. 50 /-",
         image: "../../beverage/13.jpeg",
       },
       {
