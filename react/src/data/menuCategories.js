@@ -34,7 +34,7 @@ export const mainCategories = [
         name: "Timur Chicken",
         desc: "",
         price: "Rs. 380 /-",
-        image: "../../special/t.jpg",
+        image: "../../special/t.jpeg",
       },
       {
         name: "Dragon Chicken",
